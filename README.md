@@ -67,12 +67,23 @@ This project demonstrates how combining multiple data structures can significant
 └── Students.txt
 ```
 ---
+## ⚙️Installation
+```bash
+git clone https://github.com/Karim-collaborate/Student-Management-System.git
+cd Student-Management-System
+```
+---
 ## ▶️ Compilation & Execution
 
 ```bash
 gcc -c main.c
 gcc -c definitions.c
 gcc main.o definitions.o -o student_manager
+./student_manager
+```
+### OR
+```bash
+gcc main.c definitions.c -o student_manager
 ./student_manager
 ```
 ---
